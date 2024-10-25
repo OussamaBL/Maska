@@ -31,6 +31,13 @@ Depuis Spring 2.5, on peut utiliser les annotations pour éviter les fichiers XM
 ### Inversion of Control (IoC)
 
 ### Spring Beans
+Un Spring Bean est un objet géré par le contexte de Spring (IoC container) qui gère son cycle de vie, ses dépendances, et ses configurations
+
+* Caractéristiques principales des Spring Beans
+ - Gestion par le conteneur Spring : Spring crée, configure, et gère les beans tout au long de leur cycle de vie. Cette gestion inclut l’injection des dépendances et la configuration selon les besoins de l’application.
+ - Configuration via le fichier XML, les annotations ou Java : Les beans peuvent être définis dans un fichier XML (applicationContext.xml), directement avec des annotations (@Component, @Service, @Repository, etc.), ou avec une configuration Java (@Configuration).
+ - Singleton par défaut : Par défaut, chaque bean en Spring est un singleton, ce qui signifie qu’une seule instance du bean est créée et partagée dans tout le conteneur.
+ - Injection de dépendances : Le conteneur Spring gère l’injection de dépendances des beans.
 
 ### Bean Scopes
 
