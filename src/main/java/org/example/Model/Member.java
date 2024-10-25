@@ -20,16 +20,16 @@
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
 
-        @Column(name = "membership_number", nullable = false)
+        @Column(name = "membership_number" )
         private String membership_number;
 
-        @Column(name = "last_name", nullable = false)
+        @Column(name = "last_name" )
         private String last_name;
 
-        @Column(name = "first_name", nullable = false)
+        @Column(name = "first_name")
         private String first_name;
 
-        @Column(name = "identification_document", nullable = false)
+        @Column(name = "identification_document")
         private String identification_document;
 
         @Column(name = "nationality")

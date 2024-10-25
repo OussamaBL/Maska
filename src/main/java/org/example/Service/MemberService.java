@@ -13,11 +13,12 @@ public class MemberService {
 
     private MemberRepository memberRepository;
 
-    // Injection par constructeur
+    // Injection de memberRepository par constructeur
     @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
+
     public Member add(Member member){
         return memberRepository.save(member);
     }
@@ -34,9 +35,9 @@ public class MemberService {
         memberRepository.delete(member);
     }
 
-    public Member getMembreByName(Long id){
+    /*public Member getMembreByName(Long id){
         return memberRepository.getMemberByFirst_name(id);
-    }
+    }*/
 
 
 }
