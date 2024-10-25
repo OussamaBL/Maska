@@ -20,7 +20,13 @@ such as creating, viewing, updating, and deleting users through a web interface.
 ### Project Structure
 
 ### Dependency Injection (DI)
+L'Injection de Dépendances (DI) dans Spring Core est une technique utilisée pour instancier et fournir des objets nécessaires à d'autres objets,
+* Types d'Injection de Dépendances dans Spring
+ - Injection par constructeur : Les dépendances sont injectées via un constructeur.
+ - Injection par setter : Les dépendances sont injectées via des méthodes de type "setter".
+ - Injection par interface : Elle consiste à injecter des dépendances via une méthode d’interface spécifique.
 
+Depuis Spring 2.5, on peut utiliser les annotations pour éviter les fichiers XML et définir la configuration directement dans les classes.
 
 ### Inversion of Control (IoC)
 
