@@ -25,7 +25,7 @@ public class MemberService {
     public List<Member> listMembers(){
         return memberRepository.findAll();
     }
-    public Optional<Member> getMembreById(Long id){
+    public Optional<Member> getMembreById(long id){
         return memberRepository.findById(id);
     }
     public void updateMember(Member member){
@@ -35,9 +35,8 @@ public class MemberService {
         memberRepository.delete(member);
     }
 
-    /*public Member getMembreByName(Long id){
-        return memberRepository.getMemberByFirst_name(id);
-    }*/
-
+    public Member getMemberByFirst_name(String first_name){
+        return memberRepository.getMemberByFirst_name(first_name);
+    }
 
 }

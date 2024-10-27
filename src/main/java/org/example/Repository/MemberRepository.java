@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MemberRepository extends JpaRepository<Member,Long> {
 
-   /* Member getMemberByFirst_name(Long id);*/
+    Member getMemberByFirst_name(String first_name);
 }

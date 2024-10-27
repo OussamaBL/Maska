@@ -16,9 +16,11 @@
     </listener>
 
 
-   <!-- <servlet>
+    <!-- Spring MVC Dispatcher Servlet Configuration -->
+    <servlet>
         <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!-- Location of Spring MVC configuration -->
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
@@ -26,10 +28,11 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <!-- Map all URLs to the Spring Dispatcher Servlet -->
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-    -->
+
 
 </web-app>

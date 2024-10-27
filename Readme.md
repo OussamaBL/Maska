@@ -29,7 +29,7 @@ L'Injection de Dépendances (DI) dans Spring Core est une technique utilisée po
 Depuis Spring 2.5, on peut utiliser les annotations pour éviter les fichiers XML et définir la configuration directement dans les classes.
 
 ### Inversion of Control (IoC)
-
+L'inversion de contrôle (IoC) est un principe ou c'est le framework (comme Spring) qui prend en charge la gestion des objets, au lieu que le programmeur gère manuellement leur création.
 ### Spring Beans
 Un Spring Bean est un objet géré par le contexte de Spring (IoC container) qui gère son cycle de vie, ses dépendances, et ses configurations
 

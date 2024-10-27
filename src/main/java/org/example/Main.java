@@ -11,14 +11,14 @@ import java.util.List;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext context =
+       /* ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
         MemberService memberService = context.getBean(MemberService.class);
         Member member = new Member();
         member.setNationality("arabic");
         memberService.add(member);
-        System.out.println("heelo oussama");
+        System.out.println("heelo oussama");*/
 
       /*  Member member = new Member();
         member.setFirst_name("ziko");
