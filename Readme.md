@@ -19,6 +19,8 @@ such as creating, viewing, updating, and deleting users through a web interface.
 
 ### Project Structure
 
+![Capture d’écran 2024-10-27 180443.png](..%2F..%2FUsers%2FYoucode%2FDownloads%2FCapture%20d%92%E9cran%202024-10-27%20180443.png)
+
 ### Dependency Injection (DI)
 L'Injection de Dépendances (DI) dans Spring Core est une technique utilisée pour instancier et fournir des objets nécessaires à d'autres objets,
 * Types d'Injection de Dépendances dans Spring
