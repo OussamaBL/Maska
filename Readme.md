@@ -46,9 +46,9 @@ Les Beans Spring sont des objets Java gérés par le conteneur IoC de Spring. Le
 ApplicationContext est l'interface principale du conteneur IoC (Inversion of Control) de Spring. Il est responsable de la création, configuration et gestion des beans, ainsi que de l'injection de leurs dépendances
 
 ### Component Scanning and Stereotype Annotations
-
+Component scanning est une fonctionnalité de Spring qui permet à Spring de découvrir et d'enregistrer automatiquement les beans dans le conteneur IoC de Spring. Les annotations de stéréotype sont utilisées pour indiquer le rôle d'une classe dans l'application.
 ### Spring Data JPA
-
+Spring Data JPA est une partie de Spring Data dédiée aux bases de données utilisant JPA (Java Persistence API). Il facilite l'interaction avec une base de données en éliminant le besoin d'écrire du code de persistance détaillé ou des requêtes SQL.
 ### Spring MVC
-
+Spring MVC est une partie du framework Spring qui fournit une architecture modèle-vue-contrôleur pour construire des applications web. 
 ### Installation and Setup
