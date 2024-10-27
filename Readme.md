@@ -40,8 +40,10 @@ Un Spring Bean est un objet géré par le contexte de Spring (IoC container) qui
  - Injection de dépendances : Le conteneur Spring gère l’injection de dépendances des beans.
 
 ### Bean Scopes
+Les Beans Spring sont des objets Java gérés par le conteneur IoC de Spring. Les beans sont créés, configurés et gérés par le conteneur IoC de Spring. Les beans sont définis dans le fichier de configuration Spring (applicationContext.xml)
 
 ### ApplicationContext
+ApplicationContext est l'interface principale du conteneur IoC (Inversion of Control) de Spring. Il est responsable de la création, configuration et gestion des beans, ainsi que de l'injection de leurs dépendances
 
 ### Component Scanning and Stereotype Annotations
 

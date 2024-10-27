@@ -30,11 +30,11 @@ public class MemberController {
         return "redirect:/";
     }
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String list(Model model) {
-        List<Member> list = membreService.listMembers();
-        model.addAttribute("list", list);
-        return "listMembre";
+        /*List<Member> list = membreService.listMembers();
+        model.addAttribute("list", list);*/
+        return "Home";
     }
 
     @PostMapping("/delete")
